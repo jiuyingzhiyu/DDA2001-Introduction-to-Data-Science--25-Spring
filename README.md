@@ -10,6 +10,7 @@ This repository contains the complete study notes of the course DDA2001 Introduc
 
 ### Part 1: Introducrion (Lectures 1-2)
 | Files | Topic | Content |
+|-------|-------|---------|
 |[Lecture1.pdf](Slides/Lecture1.pdf)| Introduction Ⅰ| Syllabus & Concept of Data Science|
 |[Lecture2.pdf](Slides/Lecture2.pdf)| Introduction Ⅱ| Four Parts of Data Science |
 
