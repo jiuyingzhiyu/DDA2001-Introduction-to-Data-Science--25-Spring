@@ -16,20 +16,20 @@ This repository contains the complete study notes of the course DDA2001 Introduc
 
 | Files | Topic | Content |
 |-------|-------|---------|
-|[Lecture1.pdf](Slides/Lecture1.pdf)| Introduction Ⅰ| Syllabus & Concept of Data Science|
-|[Lecture2.pdf](Slides/Lecture2.pdf)| Introduction Ⅱ| Four Parts of Data Science |
+|[Lecture01.pdf](Slides/Lecture01.pdf)| Introduction Ⅰ| Syllabus & Concept of Data Science|
+|[Lecture02.pdf](Slides/Lecture02.pdf)| Introduction Ⅱ| Four Parts of Data Science |
 > This part of content does not summarized as notes.   
 
 ### Part 2: Probability (Lectures 3-8)
 
 | Files | Topic | Content |
 |-------|-------|---------|
-|[Lecture3.pdf](Slides/Lecture3.pdf)| Probability Theory Ⅰ| Probablity Concepts & Functions|
-|[Lecture4.pdf](Slides/Lecture4.pdf)| Probability Theory Ⅱ| Independence, Distributions, Mean & Variance |
-|[Lecture5.pdf](Slides/Lecture5.pdf)| Random Variable | PMF, Expectation, CDF, Variance |
-|[Lecture6.pdf](Slides/Lecture6.pdf)| Common Distributions | Bernoulli, Binomial, Geometric Distribution |
-|[Lecture7.pdf](Slides/Lecture7.pdf)| Continuous Random Variable | Uniform, Normal Distribution |
-|[Lecture8.pdf](Slides/Lecture8.pdf)| Correlation and Conditional Probability | Expectation of g(x), Correlation, Conditional Probability |
+|[Lecture03.pdf](Slides/Lecture03.pdf)| Probability Theory Ⅰ| Probablity Concepts & Functions|
+|[Lecture04.pdf](Slides/Lecture04.pdf)| Probability Theory Ⅱ| Independence, Distributions, Mean & Variance |
+|[Lecture05.pdf](Slides/Lecture05.pdf)| Random Variable | PMF, Expectation, CDF, Variance |
+|[Lecture06.pdf](Slides/Lecture06.pdf)| Common Distributions | Bernoulli, Binomial, Geometric Distribution |
+|[Lecture07.pdf](Slides/Lecture07.pdf)| Continuous Random Variable | Uniform, Normal Distribution |
+|[Lecture08.pdf](Slides/Lecture08.pdf)| Correlation and Conditional Probability | Expectation of g(x), Correlation, Conditional Probability |
 
 **Probability Note**: [Probability.md](Notes/Probability.md)
 
@@ -37,7 +37,7 @@ This repository contains the complete study notes of the course DDA2001 Introduc
 
 | Files | Topic | Content |
 |-------|-------|---------|
-|[Lecture9.pdf](Slides/Lecture9.pdf)| Maximum Likelihood Estimate | Statistics Definition, Likelihood Function |
+|[Lecture09.pdf](Slides/Lecture09.pdf)| Maximum Likelihood Estimate | Statistics Definition, Likelihood Function |
 |[Lecture10.pdf](Slides/Lecture10.pdf)| Regression Analysis | MLE, Linear Regression |
 |[Lecture11.pdf](Slides/Lecture11.pdf)| Confidence Interval Ⅰ| CLT, Confidence Interval |
 |[Lecture12.pdf](Slides/Lecture12.pdf)| Confidence Interval Ⅱ| Confidence Interval for Mean |
