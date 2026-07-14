@@ -12,6 +12,8 @@ This repository contains the complete study notes of the course DDA2001 Introduc
 
 ## Note Content
 
+***Only reading the notes is sufficient for understanding the content of this chapter***
+
 ### Part 1: Introducrion (Lectures 1-2)
 
 | Files | Topic | Content |
