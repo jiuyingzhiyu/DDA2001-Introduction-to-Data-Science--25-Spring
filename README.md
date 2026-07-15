@@ -68,7 +68,7 @@ This repository contains the complete study notes of the course DDA2001 Introduc
 |[Lecture23.pdf](Slides/Lecture23.pdf)| Clustering | Unsupervised Learning, K-Means |
 |[Lecture24.pdf](Slides/Lecture24.pdf)| Model Selection | K-fold Validation |
 
-**Machine Learning Note**: [Machine Learning.md](Notes/Machine Learning.md)
+**Machine Learning Note**: [Machine Learning.md](Notes/Machine_Learning.md)
 
 ### Part 6: Review 
 
