@@ -144,9 +144,9 @@ A process is a random experiment if:
 
 ### Outcome
 
-An outcome is one possible result of a random experiment, usually denoted by \( \omega \).
+An outcome is one possible result of a random experiment, usually denoted by Ω .
 
-For one die roll, \(\omega\in\{1,2,3,4,5,6\}\).
+For one die roll, Ω in {1,2,3,4,5,6\}.
 
 ### Sample Space
 
