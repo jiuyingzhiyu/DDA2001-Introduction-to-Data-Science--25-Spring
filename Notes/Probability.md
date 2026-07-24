@@ -445,10 +445,10 @@ The CDF is useful for threshold events, such as:
 
 Properties:
 
-1. \(0\le F(x)\le 1\);
-2. \(F(x)\) is nondecreasing;
-3. \(F(x)\to0\) as \(x\to-\infty\);
-4. \(F(x)\to1\) as \(x\to+\infty\).
+1. $0\le F(x)\le 1$;
+2. $F(x)$ is nondecreasing;
+3. $F(x)\to0$ as $x\to-\infty$;
+4. $F(x)\to1$ as $x\to+\infty$.
 
 ---
 
@@ -471,7 +471,7 @@ $$
 P(X=x)=0.
 $$
 
-This does not mean that \(X=x\) is impossible. It means that a single point has zero width and therefore zero probability mass.
+This does not mean that $X=x$ is impossible. It means that a single point has zero width and therefore zero probability mass.
 
 For continuous variables, we ask interval questions:
 
@@ -479,13 +479,13 @@ $$
 P(0.4\le X\le 0.6),
 $$
 
-not point questions such as \(P(X=0.5)\).
+not point questions such as $P(X=0.5)$.
 
 ---
 
 ## 2.7 Probability Density Function (PDF)
 
-A continuous random variable is described by a PDF \(f(x)\).
+A continuous random variable is described by a PDF $f(x)$.
 
 It must satisfy:
 
@@ -531,7 +531,7 @@ $$
 |---|---|---|---|
 | Used for | Discrete variables | Continuous variables | Both |
 | Meaning | Point probability | Density | Cumulative probability |
-| Formula | \(P(X=x)\) | \(f(x)\) | \(P(X\le x)\) |
+| Formula | $P(X=x)$ | $f(x)$ | $P(X\le x)$ |
 | Probability calculation | Sum | Integral | Difference |
 | Can exceed 1? | No | Yes | No |
 
@@ -561,7 +561,7 @@ $$
 E[X]=\int_{-\infty}^{\infty}xf(x)dx.
 $$
 
-Example: a fair die game pays 2 dollars if the outcome is greater than 3 and loses 1 dollar otherwise. Let \(X\) be the payoff.
+Example: a fair die game pays 2 dollars if the outcome is greater than 3 and loses 1 dollar otherwise. Let $X$ be the payoff.
 
 Then
 
@@ -601,15 +601,15 @@ $$
 
 ## 3.3 Expectation of \(g(X)\)
 
-If \(g(X)\) is a function of \(X\), then
+If $g(X)$ is a function of $X$, then
 
-For discrete \(X\):
+For discrete $X$:
 
 $$
 E[g(X)]=\sum_xg(x)P(X=x).
 $$
 
-For continuous \(X\):
+For continuous $X$:
 
 $$
 E[g(X)]=\int_{-\infty}^{\infty}g(x)f(x)dx.
@@ -623,7 +623,7 @@ $$
 E[g(X)]\ne g(E[X]).
 $$
 
-Example: let \(X=1\) for heads and \(X=-1\) for tails in a fair coin toss.
+Example: let $X=1$ for heads and $X=-1$ for tails in a fair coin toss.
 
 Then
 
@@ -669,7 +669,7 @@ $$
 
 ### Why Square?
 
-If we used \(E[X-E[X]]\), the result would always be zero. Squaring removes signs, pe  nalizes large deviations, and gives a mathematically convenient measure.
+If we used $E[X-E[X]]$, the result would always be zero. Squaring removes signs, pe  nalizes large deviations, and gives a mathematically convenient measure.
 
 ---
 
@@ -687,7 +687,7 @@ It has the same unit as the original variable. If returns are measured in dollar
 
 ## 3.6 Variance Addition
 
-If \(X_1,X_2,\ldots,X_n\) are independent, then
+If $X_1,X_2,\ldots,X_n$ are independent, then
 
 $$
 Var(X_1+X_2+\cdots+X_n)=Var(X_1)+Var(X_2)+\cdots+Var(X_n).
@@ -751,7 +751,7 @@ Memory: Bernoulli = one yes/no trial.
 
 ## 4.2 Binomial Distribution
 
-A binomial distribution describes the number of successes in \(N\) independent Bernoulli trials.
+A binomial distribution describes the number of successes in $N$ independent Bernoulli trials.
 
 Notation:
 
@@ -781,7 +781,7 @@ $$
 X=X_1+X_2+\cdots+X_N.
 $$
 
-Since each \(X_i\sim Bernoulli(p)\),
+Since each $X_i\sim Bernoulli(p)$,
 
 $$
 E[X]=\sum_iE[X_i]=Np.
@@ -807,7 +807,7 @@ $$
 X\sim Geometric(p).
 $$
 
-If \(X\) is the number of the trial on which the first success occurs,
+If $X$ is the number of the trial on which the first success occurs,
 
 $$
 P(X=k)=(1-p)^{k-1}p,
@@ -841,16 +841,16 @@ Memory: Geometric = waiting time until first success.
 
 | Question | Random Variable | Distribution |
 |---|---|---|
-| Does a customer arrive in a specific minute? | \(X_i\in\{0,1\}\) | Bernoulli |
-| How many customers arrive in the first \(N\) minutes? | \(Y_N=X_1+\cdots+X_N\) | Binomial |
-| In which minute does the first customer arrive? | \(Z\) | Geometric |
+| Does a customer arrive in a specific minute? | $X_i\in\{0,1\}$ | Bernoulli |
+| How many customers arrive in the first $N$ minutes? | $Y_N=X_1+\cdots+X_N$ | Binomial |
+| In which minute does the first customer arrive? | $Z$ | Geometric |
 
 Similarly for machine breakdowns:
 
 | Question | Distribution |
 |---|---|
 | Does the machine break down today? | Bernoulli |
-| How many breakdowns occur in the first \(N\) days? | Binomial |
+| How many breakdowns occur in the first $N$ days? | Binomial |
 | On which day does the first breakdown occur? | Geometric |
 
 ---
