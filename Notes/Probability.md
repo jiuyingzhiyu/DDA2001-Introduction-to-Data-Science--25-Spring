@@ -150,7 +150,7 @@ For one die roll, Ω in {1,2,3,4,5,6\}.
 
 ### Sample Space
 
-The sample space is the set of all possible outcomes, denoted by \(\Omega\) or \(S\).
+The sample space is the set of all possible outcomes, denoted by (Ω) or \(S\).
 
 Examples:
 
