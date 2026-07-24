@@ -1608,11 +1608,11 @@ $$
 
 | Distribution | Parameters | Mean | Variance |
 |---|---|---|---|
-| Bernoulli | $p$ | \(p\) | \(p(1-p)\) |
-| Binomial | $N,p$ | \(Np\) | \(Np(1-p)\) |
-| Geometric | $p$ | \(1/p\) | \((1-p)/p^2\) |
-| Uniform | \(a,b\) | \((a+b)/2\) | \((b-a)^2/12\) |
-| Normal | \(\mu,\sigma^2\) | \(\mu\) | \(\sigma^2\) |
+| Bernoulli | $p$ | $p$ | $p(1-p)$ |
+| Binomial | $N,p$ | $Np$ | $Np(1-p)$ |
+| Geometric | $p$ | $1/p$ | $(1-p)/p^2$ |
+| Uniform | $a,b$ | $(a+b)/2$ | $(b-a)^2/12$ |
+| Normal | $\mu,\sigma^2$ | $\mu$ | $\sigma^2$ |
 
 ---
 
