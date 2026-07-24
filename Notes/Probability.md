@@ -266,7 +266,7 @@ The subtraction is needed because the intersection is counted twice.
 
 ## 1.8 Mutually Exclusive Events
 
-Events \(A\) and \(B\) are mutually exclusive if
+Events $A$ and $B$ are mutually exclusive if
 
 $$
 A\cap B=\emptyset.
@@ -274,7 +274,7 @@ $$
 
 They cannot occur at the same time.
 
-If \(A\) and \(B\) are mutually exclusive,
+If $A$ and $B$ are mutually exclusive,
 
 $$
 P(A\cup B)=P(A)+P(B).
@@ -286,7 +286,7 @@ Example: in one die roll, “getting 1” and “getting 6” are mutually exclu
 
 ## 1.9 Independence
 
-Events \(A\) and \(B\) are independent if
+Events $A$ and $B$ are independent if
 
 $$
 P(A\cap B)=P(A)P(B).
@@ -294,7 +294,7 @@ $$
 
 Intuition: knowing that one event occurred does not change the probability of the other event.
 
-Equivalently, if \(P(B)>0\),
+Equivalently, if $P(B)>0$,
 
 $$
 P(A|B)=P(A).
@@ -304,8 +304,8 @@ $$
 
 | Concept | Meaning | Formula | Intuition |
 |---|---|---|---|
-| Mutually exclusive | Cannot occur together | \(A\cap B=\emptyset\) | A excludes B |
-| Independent | No probabilistic influence | \(P(A\cap B)=P(A)P(B)\) | A gives no information about B |
+| Mutually exclusive | Cannot occur together | $A\cap B=\emptyset$ | A excludes B |
+| Independent | No probabilistic influence | $P(A\cap B)=P(A)P(B)$ | A gives no information about B |
 
 Nonzero mutually exclusive events are usually not independent.
 
@@ -313,7 +313,7 @@ Nonzero mutually exclusive events are usually not independent.
 
 ## 1.10 Birthday Paradox
 
-Question: in a room with \(n\) people, what is the probability that at least two people share a birthday?
+Question: in a room with $n$ people, what is the probability that at least two people share a birthday?
 
 Use the complement:
 
@@ -333,7 +333,7 @@ $$
 P(\text{at least one match})=1-\prod_{k=0}^{n-1}\frac{365-k}{365}.
 $$
 
-At \(n=23\), the probability is already around 50%. At \(n=100\), it is over 99%.
+At $n=23$, the probability is already around 50%. At $n=100$, it is over 99%.
 
 The birthday paradox mainly tests complement reasoning and multiplication rules.
 
