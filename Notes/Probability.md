@@ -202,7 +202,7 @@ $$
 
 Events can be described in words, set notation, or random variable notation.
 
-For example, if \(X\) is the sum of two dice, the event “the sum is larger than 10” can be written as
+For example, if $X$ is the sum of two dice, the event “the sum is larger than 10” can be written as
 
 $$
 \{\omega:X(\omega)>10\}
@@ -250,9 +250,9 @@ Since events are sets, we can apply set operations.
 
 | Concept | Words | Notation | Meaning |
 |---|---|---|---|
-| Union | A or B | $\(A\cup B\)$ | At least one of A or B occurs |
-| Intersection | A and B | \(A\cap B\) | Both A and B occur |
-| Complement | not A | \(A^c\) or \(A'\) | A does not occur |
+| Union | A or B | $ A\cup B $ | At least one of A or B occurs |
+| Intersection | A and B | $ A\cap B $ | Both A and B occur |
+| Complement | not A |$ A^c $or $ A' $ | A does not occur |
 
 The addition rule is
 
