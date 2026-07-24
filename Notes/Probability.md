@@ -599,7 +599,7 @@ $$
 ---
 
 
-## 3.3 Expectation of \(g(X)\)
+## 3.3 Expectation of $g(X)$
 
 If $g(X)$ is a function of $X$, then
 
@@ -789,9 +789,9 @@ $$
 
 Applications:
   
-- number of breakdowns in \(N\) days;
+- number of breakdowns in $N$ days;
 - number of users clicking an advertisement;
-- number of erroneous bits among \(N\) bits.
+- number of erroneous bits among $N$ bits.
 
 Memory: Binomial = total successes in many Bernoulli trials.
 
@@ -897,7 +897,7 @@ $$
 f(x)=\frac{1}{b-a},\quad a\le x\le b,
 $$
 
-and \(f(x)=0\) otherwise.
+and $f(x)=0$ otherwise.
 
 Mean:
 
@@ -992,9 +992,9 @@ This is the foundation of Monte Carlo integration.
 
 ---
 
-## 5.5 Estimating \(\pi\) by Random Sampling
+## 5.5 Estimating $\pi$ by Random Sampling
 
-Draw random points uniformly from the square \([-1,1]\times[-1,1]\). The square has area 4, and the unit circle has area \(\pi\).
+Draw random points uniformly from the square $[-1,1]\times[-1,1]$. The square has area 4, and the unit circle has area $\pi$.
 
 A point is inside the unit circle if
 
@@ -1046,13 +1046,13 @@ Normal distributions are widely used to model measurement errors, heights, sampl
 
 The course mentions the Central Limit Theorem as the reason why the normal distribution is important.
 
-Let \(X_1,X_2,\ldots,X_n\) be independent and identically distributed with mean \(\mu\) and variance \(\sigma^2\). Define
+Let $X_1,X_2,\ldots,X_n$ be independent and identically distributed with mean $\mu$ and variance $\sigma^2$. Define
 
 $$
 \bar X=\frac{X_1+\cdots+X_n}{n}.
 $$
 
-For large \(n\),
+For large $n$,
 
 $$
 \bar X\approx Normal\left(\mu,\frac{\sigma^2}{n}\right).
@@ -1072,10 +1072,10 @@ A single random variable describes one quantity. In data science, we often care 
 
 Examples:
 
-- temperature \(X\) and air-conditioner usage \(Y\);
-- age \(X\) and height \(Y\);
-- attendance rate \(X\) and final score \(Y\);
-- exercise amount \(X\) and health measure \(Y\).
+- temperature $X$ and air-conditioner usage $Y$;
+- age $X$ and height $Y$;
+- attendance rate $X$ and final score $Y$;
+- exercise amount $X$ and health measure $Y$.
 
 The realization of one variable may change the distribution of another variable, so we need joint distributions.
 
@@ -1131,7 +1131,7 @@ $$
 
 Intuition:
 
-| Case | \(X-E[X]\) | \(Y-E[Y]\) | Product |
+| Case | $X-E[X]$ | $Y-E[Y]$ | Product |
 |---|---|---|---|
 | X high, Y high | + | + | + |
 | X low, Y low | - | - | + |
@@ -1172,9 +1172,9 @@ $$
 
 ### Important Note
 
-Correlation measures linear relationship only. \(\rho=0\) does not mean there is no relationship at all.
+Correlation measures linear relationship only. $\rho=0$ does not mean there is no relationship at all.
 
-For example, \(Y=X^2\) may have zero linear correlation with \(X\) under a symmetric distribution, but the variables are clearly related.
+For example, $Y=X^2$ may have zero linear correlation with $X$ under a symmetric distribution, but the variables are clearly related.
 
 ---
 
