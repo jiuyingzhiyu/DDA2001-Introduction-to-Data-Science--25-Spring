@@ -345,7 +345,7 @@ The birthday paradox mainly tests complement reasoning and multiplication rules.
 
 Outcomes are often not numerical, but statistics and data science usually require numerical quantities.
 
-Example: after three coin tosses, the outcome may be \(HTH\), but we may care about the number of heads.
+Example: after three coin tosses, the outcome may be $HTH$, but we may care about the number of heads.
 
 Define
 
@@ -359,7 +359,7 @@ $$
 X:\Omega\to\mathbb{R}.
 $$
 
-It maps each outcome \(\omega\) to a numerical value \(X(\omega)\).
+It maps each outcome $\omega$ to a numerical value $X(\omega)$.
 
 ---
 
@@ -367,7 +367,7 @@ It maps each outcome \(\omega\) to a numerical value \(X(\omega)\).
 
 The range of a random variable is the set of values it can take.
 
-Example: if \(X\) is the sum of two dice, then
+Example: if $X$ is the sum of two dice, then
 
 $$
 X\in\{2,3,4,5,6,7,8,9,10,11,12\}.
@@ -390,7 +390,7 @@ Examples:
 
 ## 2.4 Probability Mass Function (PMF)
 
-For a discrete random variable \(X\), its PMF is
+For a discrete random variable $X$, its PMF is
 
 $$
 f(x)=P(X=x).
@@ -414,7 +414,7 @@ $$
 P(X=i)=\frac{1}{6},\quad i=1,2,3,4,5,6.
 $$
 
-Example: if \(X\) is the number of heads in two coin tosses,
+Example: if $X$ is the number of heads in two coin tosses,
 
 | X | 0 | 1 | 2 |
 |---|---|---|---|
