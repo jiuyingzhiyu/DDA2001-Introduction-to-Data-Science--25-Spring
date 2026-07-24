@@ -1180,7 +1180,7 @@ For example, $Y=X^2$ may have zero linear correlation with $X$ under a symmetric
 
 ## 6.5 Pearson Correlation Calculation Template
 
-Given data \((x_i,y_i), i=1,\ldots,n\):
+Given data $(x_i,y_i), i=1,\ldots,n$:
 
 1. Compute sample means:
 
@@ -1212,7 +1212,7 @@ $$
 r=\frac{Cov(X,Y)}{SD_XSD_Y}.
 $$
 
-Example: if \(Y=2X\), such as
+Example: if $Y=2X$, such as
 
 | X | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|
@@ -1241,13 +1241,13 @@ In data science, correlation alone is not enough for causal conclusions. Experim
 
 Conditional probability describes the probability of an event given that another event has occurred.
  
-If \(P(B)>0\), then
+If $P(B)>0$, then
 
 $$
 P(A|B)=\frac{P(A\cap B)}{P(B)}.
 $$
 
-Intuition: once we know \(B\) occurred, the sample space is restricted to \(B\).
+Intuition: once we know $B$ occurred, the sample space is restricted to $B$.
 
 ---
 
@@ -1283,7 +1283,7 @@ $$
 P(A|B)=\frac{P(B|A)P(A)}{P(B)}.
 $$
 
-If \(B\) can occur under multiple cases, use the law of total probability:
+If $B$ can occur under multiple cases, use the law of total probability:
 
 $$
 P(B)=P(B|A)P(A)+P(B|A^c)P(A^c).
@@ -1317,7 +1317,7 @@ $$
 P(Positive|Well)=0.01.
 $$
 
-We want \(P(Infected|Positive)\).
+We want $P(Infected|Positive)$.
 
 Compute joint probabilities:
 
@@ -1351,22 +1351,22 @@ There are three doors: one car and two goats. You choose one door. The host open
 
 Yes.
 
-- Probability of winning if staying: \(1/3\)
-- Probability of winning if switching: \(2/3\)
+- Probability of winning if staying: $1/3$
+- Probability of winning if switching: $2/3$
 
-Intuition: your initial choice is wrong with probability \(2/3\). If your initial choice is wrong, switching wins.
+Intuition: your initial choice is wrong with probability $2/3$. If your initial choice is wrong, switching wins.
 
 ---
 
 ## 7.6 Conditional Probability and Independence
 
-If \(A\) and \(B\) are independent, then
+If $A$ and $B$ are independent, then
 
 $$
 P(A|B)=P(A).
 $$
 
-For random variables, if \(X\) and \(Y\) are independent,
+For random variables, if $X$ and $Y$ are independent,
 
 $$
 f(y|x)=f(y)
@@ -1400,7 +1400,7 @@ Common mistake: confusing an event with the sample space.
 
 Steps:
 
-1. Define \(A\) and \(B\);
+1. Define $A$ and $B$;
 2. check whether they are mutually exclusive;
 3. check whether they are independent;
 4. use
@@ -1438,8 +1438,8 @@ Steps:
 
 Steps:
 
-1. Compute \(E[X]\);
-2. compute \(E[X^2]\);
+1. Compute $E[X]$;
+2. compute $E[X^2]$;
 3. use
 
 $$
@@ -1453,7 +1453,7 @@ $$
 | Keywords | Distribution |
 |---|---|
 | yes/no, success/failure | Bernoulli |
-| number of successes in \(N\) trials | Binomial |
+| number of successes in $N$ trials | Binomial |
 | first success | Geometric |
 | equally likely on an interval | Uniform |
 | sample average, error, many small effects | Normal |
@@ -1464,14 +1464,14 @@ $$
 
 Steps:
 
-1. Determine whether the question asks for \(P(A|B)\) or \(P(B|A)\);
+1. Determine whether the question asks for $P(A|B)$ or $P(B|A)$;
 2. use
 
 $$
 P(A|B)=\frac{P(A\cap B)}{P(B)};
 $$
 
-3. if \(P(B)\) is not directly given, use total probability;
+3. if $P(B)$ is not directly given, use total probability;
 4. watch for base-rate effects.
 
 ---
@@ -1480,7 +1480,7 @@ $$
 
 Steps:
 
-1. Compute \(\bar x\) and \(\bar y\);
+1. Compute $\bar x$ and $\bar y$;
 2. compute deviations;
 3. compute covariance;
 4. compute standard deviations;
@@ -1608,9 +1608,9 @@ $$
 
 | Distribution | Parameters | Mean | Variance |
 |---|---|---|---|
-| Bernoulli | \(p\) | \(p\) | \(p(1-p)\) |
-| Binomial | \(N,p\) | \(Np\) | \(Np(1-p)\) |
-| Geometric | \(p\) | \(1/p\) | \((1-p)/p^2\) |
+| Bernoulli | $p$ | \(p\) | \(p(1-p)\) |
+| Binomial | $N,p$ | \(Np\) | \(Np(1-p)\) |
+| Geometric | $p$ | \(1/p\) | \((1-p)/p^2\) |
 | Uniform | \(a,b\) | \((a+b)/2\) | \((b-a)^2/12\) |
 | Normal | \(\mu,\sigma^2\) | \(\mu\) | \(\sigma^2\) |
 
