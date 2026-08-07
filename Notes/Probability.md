@@ -18,7 +18,7 @@
 6. [Joint Distribution, Covariance, and Correlation](#6-joint-distribution-covariance-and-correlation)
 7. [Conditional Probability and Bayes Rule](#7-conditional-probability-and-bayes-rule)
 8. [Exam Templates](#8-exam-templates)
-9. [Foemula Sheet](#9-formula-sheet)
+9. [Formula Sheet](#9-formula-sheet)
 10. [Final Remarks](#10-final-remarks)
 11. [Reference Material](#11-reference-material)
 
