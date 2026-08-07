@@ -1,7 +1,9 @@
 # DDA2001 Introduction to Data Science — Probability 
 
 > **Course**: DDA2001 Introduction to Data Science, CUHK(SZ)
+> 
 > **Instructor**: Shuang Li
+> 
 > **Scope**: Lecture 3–8, including elementary probability theory, random variables, discrete distributions, continuous random variables, correlation, conditional probability, and Pearson correlation calculation examples.  
 
 ---
